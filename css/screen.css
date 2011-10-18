@@ -72,6 +72,10 @@ ul.posts {
     font-size: 80%;
   }
 
+.banner {
+ margin: 0 0 0 55px;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -125,7 +129,7 @@ ul.posts {
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      margin-right: 2em;
     }
 
       .site .footer .contact a {
