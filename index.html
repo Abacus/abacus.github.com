@@ -1,1 +1,49 @@
-The Open Source HTML5 Game Framework
+---
+layout: default
+title: Abacus - HTML5 Games Framework
+---
+
+<div id="home">
+  
+  <p>We're working towards a 0.1 release November, stay tuned.</p>
+  
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> </span> &raquo;raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <div class="download">
+    <a href="http://github.com/Abacus/Abacus/zipball/master">
+      <img border="0" width="90" src="http://github.com/images/modules/download/zip.png">
+    </a>
+    <a href="http://github.com/Abacus/Abacus/tarball/master">
+      <img border="0" width="90" src="http://github.com/images/modules/download/tar.png">
+    </a>
+  </div>
+
+  <h1>Authors</h1> 
+  <ul class="posts">
+    <li><span>Boaz</span> </span> &raquo;raquo; (https://github.com/boazsender)</li>
+    <li><span>Michael "Z" Goddard </span> &raquo;raquo; (https://github.com/mzgoddard)</li>
+    <li><span>secretrobotron </span> &raquo;raquo; (https://github.com/secretrobotron)</li>
+    <li><span>Rick Waldron</span> &raquo; (https://github.com/rwldrn)</li>
+  </ul>
+
+  <h2>Download</h2>
+  <p>
+    You can download this project in either
+    <a href="http://github.com/Abacus/Abacus/zipball/master">zip</a> or
+    <a href="http://github.com/Abacus/Abacus/tarball/master">tar</a> formats.
+  </p>
+  <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+    by running:
+    <pre>$ git clone git://github.com/Abacus/Abacus</pre>
+  </p>
+
+  <div class="footer">
+    get the source code on GitHub : <a href="http://github.com/Abacus/Abacus">Abacus/Abacus</a>
+  </div>
+
+</div>
